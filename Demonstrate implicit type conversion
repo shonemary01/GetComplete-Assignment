@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int x = 10;
+    float y = 2.5;
+    float result = x + y;  // int automatically converted to float
+    printf("Result = %.2f\n", result);
+    return 0;
+}
