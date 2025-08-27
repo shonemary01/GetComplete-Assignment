@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    printf("Name: Shone Mariam Shery\n");
+    printf("Course: B.Tech in Computer Science\n");
+    printf("University: XYZ University\n");
+    return 0;
+}
