@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int i = 5;
+    printf("Pre-increment: %d\n", ++i); // increases first, then prints
+    i = 5;
+    printf("Post-increment: %d\n", i++); // prints first, then increases
+    printf("After post-increment: %d\n", i);
+    return 0;
+}
