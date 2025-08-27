@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    const int x = 100;
+    printf("Constant value: %d\n", x);
+    // x = 200; // This will give an error
+    return 0;
+}
