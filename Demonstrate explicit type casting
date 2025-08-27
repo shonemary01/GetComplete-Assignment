@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    float f = 5.9;
+    int x = (int)f;  // Casting float to int
+    printf("Original float: %.2f\n", f);
+    printf("After casting to int: %d\n", x);
+    return 0;
+}
