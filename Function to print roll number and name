@@ -1,0 +1,9 @@
+#include <stdio.h>
+void printDetails() {
+    printf("Roll No: 101\n");
+    printf("Name: Shone Mariam Shery\n");
+}
+int main() {
+    printDetails();
+    return 0;
+}
